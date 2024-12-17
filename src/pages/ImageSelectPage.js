@@ -3,7 +3,7 @@ import React from 'react';
 const ImageSelectPage = () => {
   return (
     <div>
-      <h1>이미지 선택 페이지</h1>
+      <img src="/Seasons.png" alt="seasons" className="responsive-image2" />
     </div>
   );
 };
