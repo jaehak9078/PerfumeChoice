@@ -7,7 +7,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  height: 100vh;
+  background-color: #f6efdf;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive-image {
+  width: 90%;
+  height: auto;
+}
+
+.next-button {
+  border: none;
+  border-radius: 12px; /* 끝에 radius를 살짝 넣음 */
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #53c7fb; /* 버튼 색상 */
+}
+
+.next-button:hover {
+  background-color: #0056b3; /* 호버 시 색상 변경 */
 }

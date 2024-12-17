@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NextButton from '../components/NextButton';
 
 const MainPage = () => {
   return (
-    <div>
-      <h1>메인 페이지</h1>
-      <Link to="/select-image">이미지 선택 페이지로 이동</Link>
+    <div className="container center">
+      <img src="/main_logo.png" alt="Logo" className="responsive-image" />
+      <NextButton>
+        <Link to="/select-image">시작하기</Link>
+      </NextButton>
     </div>
   );
 };
