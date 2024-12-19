@@ -63,7 +63,16 @@ code {
   background-color: #0056b3; /* 호버 시 색상 변경 */
 }
 
+.image-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 .responsive-image2 {
-  height: auto;
-  width: auto;
+  width: 100%;
+  height: 100%;
 }

@@ -2,8 +2,8 @@ import React from 'react';
 
 const ImageSelectPage = () => {
   return (
-    <div>
-      <img src="/Seasons.png" alt="seasons" className="responsive-image2" />
+    <div className="image-container">
+      <img src="/Seasons.jpg" alt="seasons" className="responsive-image2" />
     </div>
   );
 };
