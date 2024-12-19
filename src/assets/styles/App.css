@@ -65,6 +65,7 @@ code {
 
 .image-container {
   width: 100vw;
+  max-width: 800px;
   height: 100vh;
   display: flex;
   justify-content: center;
