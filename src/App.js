@@ -16,10 +16,10 @@ function App() {
         <Route path="/select-image" element={<ImageSelectPage />} />
 
         {/* 향수 리스트 페이지 */}
-        <Route path="/perfumes" element={<PerfumesPage />} />
+        <Route path="/perfumes/:season" element={<PerfumesPage />} />
 
         {/* 향수 상세 정보 페이지 */}
-        <Route path="/perfumes/:id" element={<PerfumeDetailPage />} />
+        <Route path="/perfumeDetail/:id" element={<PerfumeDetailPage />} />
       </Routes>
     </div>
   );

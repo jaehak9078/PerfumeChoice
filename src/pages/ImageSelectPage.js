@@ -2,7 +2,7 @@ import React from 'react';
 const ImageSelectPage = () => {
   const handleNavigation = (season) => {
     // 예: 페이지 이동 로직
-    window.location.href = `/${season}`;
+    window.location.href = `/perfumes/${season}`;
   };
 
   return (

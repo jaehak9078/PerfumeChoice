@@ -1,0 +1,33 @@
+{
+    "spring": [
+      { "name": "베이비 파우더", "image": "/perfume.png", "id": 1 },
+      { "name": "코튼", "image": "/perfume.png", "id": 2 },
+      { "name": "밤쉘", "image": "/perfume.png", "id": 3 },
+      { "name": "화이트티", "image": "/perfume.png", "id": 4 },
+      { "name": "화이트머스크", "image": "/perfume.png", "id": 5 },
+      { "name": "뮤겟", "image": "/perfume.png", "id": 6 },
+      { "name": "일랑일랑", "image": "/perfume.png", "id": 7 }
+    ],
+    "summer": [
+      { "name": "아쿠아키스", "image": "/perfume.png", "id": 8 },
+      { "name": "레몬라임", "image": "/perfume.png", "id": 9 },
+      { "name": "베르가못", "image": "/perfume.png", "id": 10 },
+      { "name": "자몽", "image": "/perfume.png", "id": 11 },
+      { "name": "레저렉션", "image": "/perfume.png", "id": 12 }
+    ],
+    "autumn": [
+      { "name": "샌달우드", "image": "/perfume.png", "id": 13 },
+      { "name": "시더우드", "image": "/perfume.png", "id": 14 },
+      { "name": "엠버우드", "image": "/perfume.png", "id": 15 },
+      { "name": "뱀부하모니", "image": "/perfume.png", "id": 16 },
+      { "name": "제주비자나무", "image": "/perfume.png", "id": 17 },
+      { "name": "라벤더허브", "image": "/perfume.png", "id": 18 }
+    ],
+    "winter": [
+      { "name": "샌달우드", "image": "/perfume.png", "id": 19 },
+      { "name": "시더우드", "image": "/perfume.png", "id": 20 },
+      { "name": "엠버우드", "image": "/perfume.png", "id": 21 },
+      { "name": "시나몬", "image": "/perfume.png", "id": 22 }
+    ]
+}
+  
