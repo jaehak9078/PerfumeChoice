@@ -66,27 +66,47 @@ code {
 .image-container {
   width: 100vw;
   max-width: 800px;
-  height: 100vh;
+  height: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
 
-.responsive-image2 {
-  width: 100%;
-  height: 100%;
+/* 전체 화면 컨테이너 */
+.season-container {
+  display: flex;
+  flex-direction: column; /* 세로로 배치 */
+  max-width: 800px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
+/* 각 계절 섹션 */
+.season {
+  position: relative; /* 버튼이 이미지 위에 배치되도록 설정 */
+  flex: 1;  /* 화면의 25%씩 차지 */
+  height: 25vw;
+  overflow: hidden; /* 넘치는 부분 숨김 */
+}
+
+/* 이미지 스타일 */
+.season img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; /* 비율 유지하며 꽉 채우기 */
+}
+
+/* 이미지 위 버튼 */
 .season-button {
-  position: absolute; /* 이미지 위에 배치 */
-  width: 100%; /* 버튼을 이미지 가로 크기에 맞춤 */
-  max-width: 800px;
-  height: 25%; /* 각 버튼이 이미지 높이의 25% 차지 */
-  background: rgba(0, 0, 0, 0.5); /* 반투명 검은색 배경 */
-  color: white; /* 텍스트 색상 */
+  position: absolute;  /* 이미지 위에 위치 */
+  width: 100%;  /* 가로 전체 */
+  height: 100%;  /* 이미지 높이의 25% */
+  bottom: 0;  /* 하단에 배치 */
+  background: rgba(0, 0, 0, 0.5);  /* 반투명 검정 */
+  color: white;
   border: none;
-  outline: none;
   font-size: 1.5rem;
   cursor: pointer;
   display: flex;
@@ -97,23 +117,6 @@ code {
 
 /* 버튼 호버 효과 */
 .season-button:hover {
-  background: rgba(255, 255, 255, 0.5); /* 밝게 강조 */
-  color: black; /* 텍스트 색상 변경 */
-}
-
-/* 버튼 위치 설정 */
-.spring {
-  top: 0; /* 상단 (춘) */
-}
-
-.summer {
-  top: 25%; /* 25% 아래 (하) */
-}
-
-.autumn {
-  top: 50%; /* 50% 아래 (추) */
-}
-
-.winter {
-  top: 75%; /* 75% 아래 (동) */
+  background: rgba(255, 255, 255, 0.5);  /* 반투명 흰색으로 변경 */
+  color: black;
 }
